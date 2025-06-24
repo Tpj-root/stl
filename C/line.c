@@ -7,6 +7,8 @@ void display() {
     glBegin(GL_LINES);
         glVertex2f(-0.5f, -0.5f); // Start point
         glVertex2f(0.5f, 0.5f);   // End point
+        glVertex2f(0.5f, 0.5f); // Start point
+        glVertex2f(0.5f, -0.5f);   // End point
     glEnd();
 
     glFlush();
